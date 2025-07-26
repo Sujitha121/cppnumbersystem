@@ -26,3 +26,5 @@ cout << "Octal: ";
 	void toHex(int n) {
 	cout << "Hexadecimal: ";
     char hex[32];
+    int i = 0;
+    while (n > 0) {
