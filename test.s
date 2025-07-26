@@ -35,3 +35,9 @@ cout << "Octal: ";
     }
     for (int j = i - 1; j >= 0; j--) cout << hex[j];
     cout << endl;
+    }
+
+int main() {
+    int number;
+    cout << "Enter a decimal number: ";
+    cin >> number;
