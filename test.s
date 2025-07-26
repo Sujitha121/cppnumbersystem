@@ -18,3 +18,5 @@ cout << "Octal: ";
     while (n > 0) {
     octal[i] = n % 8;
         n = n / 8;
+	i++;
+    }
