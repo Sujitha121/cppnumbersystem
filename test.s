@@ -24,3 +24,5 @@ cout << "Octal: ";
 	cout << endl;
 	}
 	void toHex(int n) {
+	cout << "Hexadecimal: ";
+    char hex[32];
