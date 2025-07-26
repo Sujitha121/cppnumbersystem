@@ -28,3 +28,6 @@ cout << "Octal: ";
     char hex[32];
     int i = 0;
     while (n > 0) {
+    int rem = n % 16;
+        hex[i] = rem < 10 ? rem + '0' : rem - 10 + 'A';
+        n = n / 16;
