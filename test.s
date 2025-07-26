@@ -19,4 +19,5 @@ cout << "Octal: ";
     octal[i] = n % 8;
         n = n / 8;
 	i++;
-    }
+	}
+	for (int j = i - 1; j >= 0; j--) cout << octal[j];
