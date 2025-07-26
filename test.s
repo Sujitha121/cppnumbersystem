@@ -10,3 +10,6 @@ void toBinary(int n) {
 	}
     for (int j = i - 1; j >= 0; j--) cout << binary[j];
     cout << endl;
+    }
+
+void toOctal(int n) {
