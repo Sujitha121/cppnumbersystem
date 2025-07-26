@@ -16,3 +16,5 @@ void toOctal(int n) {
 cout << "Octal: ";
     int octal[32], i = 0;
     while (n > 0) {
+    octal[i] = n % 8;
+        n = n / 8;
