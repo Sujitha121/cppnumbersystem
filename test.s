@@ -13,3 +13,6 @@ void toBinary(int n) {
     }
 
 void toOctal(int n) {
+cout << "Octal: ";
+    int octal[32], i = 0;
+    while (n > 0) {
