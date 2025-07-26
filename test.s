@@ -41,3 +41,9 @@ int main() {
     int number;
     cout << "Enter a decimal number: ";
     cin >> number;
+    toBinary(number);
+    toOctal(number);
+    toHex(number);
+
+    return 0;
+}
