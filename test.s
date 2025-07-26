@@ -31,3 +31,7 @@ cout << "Octal: ";
     int rem = n % 16;
         hex[i] = rem < 10 ? rem + '0' : rem - 10 + 'A';
         n = n / 16;
+	i++;
+    }
+    for (int j = i - 1; j >= 0; j--) cout << hex[j];
+    cout << endl;
